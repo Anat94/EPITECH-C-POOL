@@ -6,15 +6,13 @@
 */
 
 #include "include/prototype.h"
-#include <unistd.h>
-
 
 int my_print_revalpha(void)
 {
     int i = 122;
 
     while(i >= 97) {
-        write(1, (void *)&i, 1);
+        my_putchar(i);
         i--;
     }
     return 0;
