@@ -9,18 +9,17 @@
 #include <unistd.h>
 
 
-int my_print_alpha(void)
+int my_print_revalpha(void)
 {
-    int i = 97;
+    int i = 122;
 
-    while (i <= 122) {
-        write(1, (void*)&i, 1);
-        i++;
+    while(i >= 97) {
+        write(1, (void *)&i, 1);
+        i--;
     }
     return 0;
 }
-
 int main()
 {
-    my_print_alpha();
+    my_print_revalpha();
 }
