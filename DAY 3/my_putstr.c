@@ -5,6 +5,8 @@
 ** my_putstr.c
 */
 
+#include "include/prototype.h"
+
 int my_putstr(char const *str)
 {
     int carac = 0;

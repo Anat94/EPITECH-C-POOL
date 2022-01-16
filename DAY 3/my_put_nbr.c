@@ -7,8 +7,6 @@
 
 #include "include/prototype.h"
 
-
-
 int error(int nb)
 {
     if (nb == -2147483648) {

@@ -13,6 +13,8 @@ int my_print_alpha(void);
 int my_print_revalpha(void);
 int my_print_digits(void);
 int my_putstr(char const *str);
+int my_put_nbr(int nb);
+int error(int nb);
 
 
 #endif /*PROTOTYPE_H */
