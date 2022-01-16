@@ -4,12 +4,8 @@
 ** File description:
 ** my_print_comb2.c
 */
-/*
-** EPITECH PROJECT, 2018
-** my_print_comb2
-** File description:
-**
-*/
+
+#include "include/prototype.h"
 
 typedef struct number_s {
     int nb1;
@@ -19,7 +15,6 @@ typedef struct number_s {
 
 } number_t;
 
-void my_putchar(char);
 
 void display_putchar2(number_t number)
 {

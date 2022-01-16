@@ -8,10 +8,11 @@
 #ifndef PROTOTYPE_H
     #define PROTOTYPE_H
 
-void my_putchar(char c);
+void my_putchar(char const c);
 int my_print_alpha(void);
 int my_print_revalpha(void);
 int my_print_digits(void);
+int my_putstr(char const *str);
 
 
 #endif /*PROTOTYPE_H */
